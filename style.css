@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    background-image: url("fur.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    /* just because Apple adds this to mobile */
+    margin: 8px;
+   }
+  
+  .mg-logo {
+    background-image: url("logo.png");
+    min-height: 30vh;
+    /* anything over 53vh causes bug on iPhone X */
+    height: 52vh;
+    width: auto;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center; 
+  }
+
+  .social-icon {
+    /* color: #2ffffc; */
+    padding: 1em; }
+    .icon:hover {
+      color: #ffd95a; }
+
+  .full-width {
+    width: 100%;
+  }
